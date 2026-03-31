@@ -5,14 +5,14 @@ import { useEffect, useState, useRef } from "react";
 
 
 const roles = [
-  "MSc Sustainable Finance · BI Oslo 🎓",
-  "Data Analytics 📊",
-  "Sustainability & ESG 🌱",
-  "Power BI · Excel · Python 📈",
-  "Event Coordination 🎤",
-  "Budget & Financial Management 💼",
-  "Community & People Operations 👥",
-  "Monitoring & Evaluation 🌍",
+  "Data Analyst 📊",
+  "Sustainable Finance Graduate 🎓",
+  "Sustainability Advocate 🌱",
+  "Power BI Specialist 📊",
+  "Spreadsheet Enthusiast (send help) 📈",
+  "Budget Controller 💼",
+  "Community Builder 👥",
+  "People & Events Coordinator 🎤",
 ];
 
 function TypewriterText() {
@@ -147,6 +147,7 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 0.6 }}
           className="text-xl md:text-2xl font-medium mb-10 h-10 flex items-center justify-center gap-2"
         >
+          <span className="text-white/50">I am a</span>
           <TypewriterText />
         </motion.div>
 
