@@ -56,9 +56,12 @@ const languages = [
 ];
 
 const techStack = [
-  "Power BI", "Excel", "Python", "R", "Stata", "ESG Analysis",
-  "Sustainability Reporting", "M&E Frameworks", "Budget Management",
-  "Event Planning", "Data Visualization", "PPWR", "Scope 3",
+  "Power BI", "Microsoft Excel", "Python", "R Programming", "Stata",
+  "Excel VBA", "Data Cleaning", "Data Visualization", "ESG Analysis",
+  "Sustainability Reporting", "Scope 3 Emissions", "PPWR Compliance",
+  "M&E Frameworks", "Budget Management", "Event Planning",
+  "Project Management", "Stakeholder Management", "Financial Reporting",
+  "Corporate Sustainability", "International Development",
 ];
 
 function AnimatedBar({ level, color, inView }: { level: number; color: string; inView: boolean }) {
@@ -110,20 +113,11 @@ export default function Skills() {
         initial={{ opacity: 0, y: 30 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ delay: 0.1 }}
-        className="text-4xl md:text-6xl font-bold mb-4"
+        className="text-4xl md:text-6xl font-bold mb-12"
       >
         What I&apos;m{" "}
         <span className="gradient-text">Actually Good At</span>
       </motion.h2>
-
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={inView ? { opacity: 1 } : {}}
-        transition={{ delay: 0.2 }}
-        className="text-white/50 mb-12 text-lg max-w-xl"
-      >
-        (Self-assessed. But the recommendations say the same thing so we&apos;re going with it.)
-      </motion.p>
 
       {/* Category tabs */}
       <motion.div
@@ -191,44 +185,38 @@ export default function Skills() {
         </motion.div>
 
         {/* Right side — Languages + Tech Cloud */}
-        <div className="space-y-10">
-          {/* Languages */}
+        <div className="space-y-8">
+          {/* Languages — compact */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ delay: 0.4 }}
           >
-            <h3 className="text-lg font-bold mb-5 flex items-center gap-2">
-              🗣️ Languages
-              <span className="text-xs text-white/30 font-normal font-mono">(all three of them)</span>
-            </h3>
-            <div className="space-y-4">
+            <h3 className="text-sm font-bold mb-3 text-white/60 font-mono uppercase tracking-widest">🗣️ Languages</h3>
+            <div className="space-y-2">
               {languages.map((lang, i) => (
                 <motion.div
                   key={lang.name}
                   initial={{ opacity: 0, x: 20 }}
                   animate={inView ? { opacity: 1, x: 0 } : {}}
                   transition={{ delay: 0.5 + i * 0.1 }}
-                  className="bg-dark-card border border-white/10 rounded-xl p-4"
+                  className="flex items-center gap-3"
                 >
-                  <div className="flex items-center justify-between mb-2">
-                    <div className="flex items-center gap-2">
-                      <span className="text-xl">{lang.flag}</span>
-                      <span className="font-semibold text-white">{lang.name}</span>
-                      <span className="text-xs text-white/40 font-mono">{lang.desc}</span>
+                  <span className="text-base">{lang.flag}</span>
+                  <div className="flex-1">
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-xs font-semibold text-white/80">{lang.name}</span>
+                      <span className="text-xs font-mono text-white/30">{lang.desc}</span>
                     </div>
-                    <span className="text-sm font-mono text-white/40">
-                      <CountUp value={lang.level} inView={inView} />%
-                    </span>
-                  </div>
-                  <div className="relative h-2 bg-white/10 rounded-full overflow-hidden">
-                    <motion.div
-                      className="h-full rounded-full"
-                      style={{ background: "linear-gradient(90deg, #00FF87, #3A86FF)" }}
-                      initial={{ width: 0 }}
-                      animate={inView ? { width: `${lang.level}%` } : { width: 0 }}
-                      transition={{ duration: 1.2, ease: "easeOut", delay: 0.6 + i * 0.1 }}
-                    />
+                    <div className="relative h-1.5 bg-white/10 rounded-full overflow-hidden">
+                      <motion.div
+                        className="h-full rounded-full"
+                        style={{ background: "linear-gradient(90deg, #00FF87, #3A86FF)" }}
+                        initial={{ width: 0 }}
+                        animate={inView ? { width: `${lang.level}%` } : { width: 0 }}
+                        transition={{ duration: 1.2, ease: "easeOut", delay: 0.6 + i * 0.1 }}
+                      />
+                    </div>
                   </div>
                 </motion.div>
               ))}
@@ -241,7 +229,7 @@ export default function Skills() {
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.6 }}
           >
-            <h3 className="text-lg font-bold mb-4">⚡ Tech & Expertise Cloud</h3>
+            <h3 className="text-sm font-bold mb-3 text-white/60 font-mono uppercase tracking-widest">⚡ Tools & Expertise</h3>
             <div className="flex flex-wrap gap-2">
               {techStack.map((tech, i) => (
                 <motion.span
@@ -250,7 +238,7 @@ export default function Skills() {
                   animate={inView ? { opacity: 1, scale: 1 } : {}}
                   transition={{ delay: 0.7 + i * 0.04, type: "spring" }}
                   whileHover={{ scale: 1.1, y: -2 }}
-                  className="px-3 py-1.5 rounded-lg text-xs font-mono border border-white/10 bg-white/5 text-white/60 hover:text-white hover:border-neon-green/30 hover:bg-neon-green/10 transition-all cursor-default"
+                  className="px-3 py-1.5 rounded-lg text-xs font-mono border border-neon-green/20 bg-neon-green/5 text-neon-green/70 hover:text-neon-green hover:border-neon-green/50 hover:bg-neon-green/10 transition-all cursor-default"
                 >
                   {tech}
                 </motion.span>
@@ -265,11 +253,11 @@ export default function Skills() {
         initial={{ opacity: 0 }}
         animate={inView ? { opacity: 1 } : {}}
         transition={{ delay: 0.8 }}
-        className="mt-20 overflow-hidden border-y border-white/5 py-4"
+        className="mt-20 overflow-hidden border-y border-neon-green/10 py-4"
       >
         <div className="marquee-inner">
           {[...techStack, ...techStack].map((tech, i) => (
-            <span key={i} className="text-white/20 text-sm font-mono mx-8 whitespace-nowrap">
+            <span key={i} className="text-neon-green/40 text-sm font-mono mx-8 whitespace-nowrap">
               ✦ {tech}
             </span>
           ))}
