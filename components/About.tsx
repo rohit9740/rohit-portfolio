@@ -5,19 +5,19 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 
 const funFacts = [
-  { emoji: "🍔", text: "I have flipped burgers and managed a 2.5M NOK budget. Different kinds of pressure, same level of focus." },
-  { emoji: "🇳🇴", text: "I speak Norwegian fluently. Moved here from India and picked it up properly. People are sometimes surprised. I find that motivating." },
-  { emoji: "👥", text: "I coordinated 700 university students across buddy groups during a record intake year. That year taught me more about logistics than any course." },
-  { emoji: "🌱", text: "Genuinely passionate about sustainability, to the point where colleagues have started questioning my weekend plans. No comment." },
-  { emoji: "📊", text: "I built a Power BI dashboard at Orkla that my supervisor described as impressive. That feedback meant something to me." },
-  { emoji: "🌍", text: "I worked with the Norwegian Refugee Council on education programmes for children in conflict zones. Meaningful work in every sense." },
+  { emoji: "🍔", text: "Worked at McDonald's before handling a 2.5M NOK budget. The burger customers were harder, honestly." },
+  { emoji: "🇳🇴", text: "I speak Norwegian. Moved from India, had no choice but to learn it properly. Still surprises people at interviews." },
+  { emoji: "👥", text: "Coordinated 700 students during BI's biggest ever intake. Built the systems from scratch. Excel sheets, WhatsApp groups, late nights." },
+  { emoji: "🌱", text: "I read sustainability reports voluntarily. My friends have strong opinions about this." },
+  { emoji: "📊", text: "Built a dashboard at Orkla. My supervisor said 'impressed.' I spent the rest of the day trying to look like I had expected that." },
+  { emoji: "🌍", text: "Worked at the Norwegian Refugee Council on education for kids in conflict zones. Puts a lot of things in perspective." },
 ];
 
 const highlights = [
   { icon: "🎓", label: "Education", value: "MSc Sustainable Finance @ BI", sub: "Previously: BBA Intl Business (GPA: B)" },
   { icon: "📍", label: "Location", value: "Oslo, Norway", sub: "Originally from India 🇮🇳" },
-  { icon: "🗣️", label: "Languages", value: "Norwegian · English · Hindi", sub: "Data is effectively the fourth" },
-  { icon: "🎯", label: "Focus", value: "Data · ESG · Sustainability", sub: "Where finance meets the real world" },
+  { icon: "🗣️", label: "Languages", value: "Norwegian · English · Hindi", sub: "Data is basically a fourth" },
+  { icon: "🎯", label: "Focus", value: "Data · ESG · Sustainability", sub: "Finance that actually means something" },
 ];
 
 export default function About() {
@@ -116,7 +116,7 @@ export default function About() {
               >
                 <p className="text-xs text-neon-green font-mono mb-1">REAL TALK MODE 😂</p>
                 <p className="text-sm text-white/80 leading-relaxed">
-                  "I build dashboards, genuinely care about the planet, and yes — I&apos;ve cooked burgers between board meetings."
+                  "I make dashboards, I care about the planet more than most people think is normal, and I have cooked burgers in between actual meetings. Not metaphorically."
                 </p>
               </div>
             </motion.div>
@@ -137,10 +137,10 @@ export default function About() {
               Business School in Oslo, with a background in international business.
             </p>
             <p className="text-lg text-white/70 leading-relaxed">
-              I work with data to build insights that are actually useful, dashboards people come back to and reports
-              that help teams make better decisions. Outside of that, I have been lucky enough to lead Norway&apos;s
-              largest student sustainability conference, coordinate 700+ students at once, and manage a 2.5M NOK
-              budget. There has been a lot to learn along the way, and I am still very much learning.
+              I work with data to build things people actually use. Dashboards, reports, the odd framework. If it ends
+              up being referenced in a meeting, that is the goal. Outside of that, I have spent a fair bit of time
+              organising things at scale. Norway&apos;s largest student sustainability conference, 700 students across
+              buddy groups, a 2.5M NOK budget. It has not all been smooth, but that is kind of the point.
             </p>
           </motion.div>
 
