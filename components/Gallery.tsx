@@ -6,6 +6,13 @@ import Image from "next/image";
 
 const photos = [
   {
+    src: "/graduation.jpg",
+    caption: "BI Graduation 2024",
+    sub: "Three years. One gown. Worth every bit of it.",
+    tag: "BI Norwegian Business School",
+    color: "#00FF87",
+  },
+  {
     src: "/orkla-2.jpg",
     caption: "Outside Orkla HQ",
     sub: "Day 1 energy. Maximum cringe. Worth it.",
@@ -17,20 +24,13 @@ const photos = [
     caption: "Whiteboard brainstorm",
     sub: "Explaining a KPI dashboard. The noodle cup is load-bearing.",
     tag: "Data Analysis",
-    color: "#00FF87",
+    color: "#FFBE0B",
   },
   {
     src: "/orkla-1.jpg",
     caption: "Factory floor tour",
     sub: "Data analyst by day. Sausage inspector by necessity.",
     tag: "Behind the scenes",
-    color: "#FFBE0B",
-  },
-  {
-    src: "/orkla-3.jpg",
-    caption: "Night view from the trip",
-    sub: "When your internship takes you here. Not bad.",
-    tag: "Company trip",
     color: "#8338EC",
   },
 ];
@@ -151,8 +151,8 @@ export default function Gallery() {
         <div>
           <p className="font-bold text-white">Yes, that is a full hazmat suit.</p>
           <p className="text-white/50 text-sm">
-            Factory floor visit during the Orkla internship. The orange hard hat was, allegedly, mandatory — not a fashion statement.
-            The data dashboard he built did not require the suit. The sausage factory tour did.
+            Factory floor visit during the Orkla internship. The hard hat was mandatory, not a fashion statement.
+            The dashboard I built did not require the suit. The sausage factory tour did.
           </p>
         </div>
       </motion.div>
