@@ -167,7 +167,7 @@ export default function Hero() {
             See My Journey ✨
           </motion.a>
           <motion.a
-            href="mailto:dardarohit9740@gmail.com"
+            href="#contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-4 border border-white/20 text-white font-semibold rounded-xl text-base hover:border-white/40 hover:bg-white/5 transition-all"

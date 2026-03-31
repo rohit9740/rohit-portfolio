@@ -7,7 +7,7 @@ const contactLinks = [
   {
     label: "Email",
     value: "dardarohit9740@gmail.com",
-    href: "mailto:dardarohit9740@gmail.com",
+    href: null,
     emoji: "✉️",
     color: "#FF006E",
     copyable: true,
@@ -22,8 +22,8 @@ const contactLinks = [
   },
   {
     label: "Phone",
-    value: "+47 467 15 199",
-    href: "tel:+4746715199",
+    value: "+4746715199",
+    href: null,
     emoji: "📱",
     color: "#00FF87",
     copyable: true,
@@ -73,7 +73,7 @@ export default function Contact() {
         className="text-4xl md:text-6xl font-bold mb-4"
       >
         Let&apos;s{" "}
-        <span className="gradient-text">Make It Happen</span>
+        <span className="gradient-text">Talk</span>
       </motion.h2>
 
       <motion.p
@@ -82,7 +82,7 @@ export default function Contact() {
         transition={{ delay: 0.2 }}
         className="text-white/50 text-lg mb-16 max-w-xl"
       >
-        Whether you want to hire me, collaborate, or just chat about ESG data — my inbox is open and I actually respond fast.
+        Happy to hear from you. Whether it is about a role, a project, or just a question, I respond quickly.
       </motion.p>
 
       <div className="grid lg:grid-cols-2 gap-12">
@@ -153,7 +153,7 @@ export default function Contact() {
             <div className="text-4xl mb-4">👋</div>
             <h3 className="text-2xl font-bold mb-3">Open to opportunities</h3>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
-              Currently finishing my Master&apos;s in Sustainable Finance. Looking for roles where data meets impact — ESG analysis, data roles, sustainability, or anything that lets me make dashboards and save the planet.
+              Finishing my Master&apos;s in Sustainable Finance at BI. Looking for roles where the work actually means something, ideally at the intersection of data, finance, and sustainability.
             </p>
             <div className="grid grid-cols-2 gap-2 mb-6">
               {availability.map((item, i) => (

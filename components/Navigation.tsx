@@ -58,7 +58,7 @@ export default function Navigation() {
             </motion.a>
           ))}
           <motion.a
-            href="mailto:dardarohit9740@gmail.com"
+            href="#contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-4 py-2 text-sm font-semibold border border-neon-green text-neon-green rounded-lg hover:bg-neon-green hover:text-dark transition-all duration-200"
