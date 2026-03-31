@@ -15,7 +15,7 @@ const funFacts = [
 
 const highlights = [
   { icon: "🎓", label: "Education", value: "MSc Sustainable Finance @ BI", sub: "Previously: BBA Intl Business (GPA: B)" },
-  { icon: "📍", label: "Location", value: "Oslo, Norway", sub: "Originally from India 🇮🇳" },
+  { icon: "📍", label: "Location", value: "Oslo, Norway", sub: "Based here since 2018" },
   { icon: "🗣️", label: "Languages", value: "Norwegian · English · Hindi", sub: "Data is basically a fourth" },
   { icon: "🎯", label: "Focus", value: "Data · ESG · Sustainability", sub: "Finance that actually means something" },
 ];
