@@ -3,15 +3,16 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useEffect, useState, useRef } from "react";
 
+
 const roles = [
   "Data Analyst 📊",
-  "Sustainability Nerd 🌱",
-  "Power BI Wizard 🔮",
+  "Sustainability Advocate 🌱",
+  "Power BI Specialist 📊",
   "Budget Controller (2.5M NOK) 💰",
-  "Buddy of 700+ People 🤝",
-  "Excel Enthusiast (send help) 📈",
-  "Sustainable Finance Student 🎓",
-  "Professional Chaos Manager ⚡",
+  "Student Community Leader 👥",
+  "Excel Enthusiast (seriously, send help) 📈",
+  "MSc Sustainable Finance Candidate 🎓",
+  "Strategic Problem Solver 💡",
 ];
 
 function TypewriterText() {
@@ -79,8 +80,8 @@ function FloatingOrb({ color, size, x, y, delay }: { color: string; size: number
 // Particle component removed — replaced by FloatingOrb for SSR safety
 
 const stats = [
-  { value: "700+", label: "Buddies Managed" },
-  { value: "2.5M", label: "NOK Budget Handled" },
+  { value: "700+", label: "Students Led" },
+  { value: "2.5M", label: "NOK Budget Managed" },
   { value: "3", label: "Languages Spoken" },
   { value: "8+", label: "Orgs & Roles" },
 ];

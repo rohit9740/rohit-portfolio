@@ -5,12 +5,12 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 
 const funFacts = [
-  { emoji: "🍔", text: "Has flipped burgers AND managed a 2.5M NOK budget. Multitasker of the century." },
-  { emoji: "🇳🇴", text: "Speaks Norwegian fluently despite being from India. Basically a Viking at this point." },
-  { emoji: "👥", text: "Once herded 700 university students into groups. Teachers have nightmares about this." },
-  { emoji: "🌱", text: "So into sustainability he probably hugs trees on weekends. Unconfirmed." },
-  { emoji: "📊", text: "Built a Power BI dashboard so clean it made Kilian Mueller actually impressed." },
-  { emoji: "🌍", text: "Helped refugee children in conflict zones. Not all heroes wear capes." },
+  { emoji: "🍔", text: "I've flipped burgers AND managed a 2.5M NOK budget. Multitasker of the century." },
+  { emoji: "🇳🇴", text: "I speak Norwegian fluently — despite being from India. Basically an honorary Viking at this point." },
+  { emoji: "👥", text: "I once coordinated 700 university students across buddy groups. It went remarkably well, considering." },
+  { emoji: "🌳", text: "So passionate about sustainability, I've been told I probably hug trees on weekends. Unconfirmed." },
+  { emoji: "📈", text: "I built a Power BI dashboard so clean, my supervisor at Orkla described it as 'impressive.' His words." },
+  { emoji: "🕊️", text: "I supported education programmes for refugee children in active conflict zones. Some things matter more than metrics." },
 ];
 
 const highlights = [
@@ -43,8 +43,8 @@ export default function About() {
         transition={{ duration: 0.6, delay: 0.1 }}
         className="text-4xl md:text-6xl font-bold mb-16"
       >
-        Who is this guy{" "}
-        <span className="gradient-text">anyway?</span>
+        Here&apos;s{" "}
+        <span className="gradient-text">who I am.</span>
       </motion.h2>
 
       <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -116,7 +116,7 @@ export default function About() {
               >
                 <p className="text-xs text-neon-green font-mono mb-1">REAL TALK MODE 😂</p>
                 <p className="text-sm text-white/80 leading-relaxed">
-                  "Guy who makes dashboards, cares about the planet, and once cooked burgers between meetings."
+                  "I build dashboards, genuinely care about the planet, and yes — I&apos;ve cooked burgers between board meetings."
                 </p>
               </div>
             </motion.div>
@@ -132,14 +132,15 @@ export default function About() {
             transition={{ delay: 0.3 }}
           >
             <p className="text-lg text-white/70 leading-relaxed mb-4">
-              Hey! I&apos;m <strong className="text-white">Rohit Vijay Darda</strong> — a 23-year-old BBA graduate now
-              doing a <strong className="text-neon-green">Master&apos;s in Sustainable Finance</strong> at BI Norwegian
-              Business School in Oslo.
+              I&apos;m <strong className="text-white">Rohit Vijay Darda</strong> — a data analyst and{" "}
+              <strong className="text-neon-green">MSc Sustainable Finance</strong> candidate at BI Norwegian
+              Business School in Oslo, with a background in international business.
             </p>
             <p className="text-lg text-white/70 leading-relaxed">
-              I turn messy data into clean insights, build dashboards that actually get used, and genuinely care about
-              making the world a bit more sustainable. When I&apos;m not crunching numbers, I&apos;m probably helping
-              700 students find their buddies or running Norway&apos;s biggest sustainability conference.
+              I transform complex data into clear, actionable insights — dashboards that actually get used, reports
+              that drive real decisions, and frameworks that stick. Outside of analytics, I&apos;ve led Norway&apos;s
+              largest student sustainability conference, coordinated 700+ students at once, and managed a 2.5M NOK
+              budget. Not bad for a day&apos;s work.
             </p>
           </motion.div>
 

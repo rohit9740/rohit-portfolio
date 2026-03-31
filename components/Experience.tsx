@@ -12,7 +12,7 @@ const experiences = [
     type: "work",
     emoji: "🍕",
     color: "#FF006E",
-    shortBio: "Built dashboards so good they made the whole product team jealous.",
+    shortBio: "I built dashboards sharp enough to turn heads across the entire product team.",
     bullets: [
       "Built a KPI & project portfolio dashboard in Power BI for the product development department",
       "Conducted ESG data analysis (PPWR, Scope 3 emissions) for sustainability reporting",
@@ -30,7 +30,7 @@ const experiences = [
     type: "work",
     emoji: "🌍",
     color: "#00FF87",
-    shortBio: "Cleaned data from multiple conflict zones. Actual superhero activity.",
+    shortBio: "I analyzed data from active conflict zones to strengthen real-world humanitarian impact.",
     bullets: [
       "Supported the Global M&E Specialist in updating the Better Learning Program (BLP) toolbox",
       "Cleaned and analyzed data from multiple country offices to strengthen reporting quality",
@@ -48,7 +48,7 @@ const experiences = [
     type: "student",
     emoji: "♻️",
     color: "#8338EC",
-    shortBio: "Organized Norway's biggest student sustainability conference. No big deal.",
+    shortBio: "I led Norway's largest student sustainability conference. Quietly very proud of this one.",
     bullets: [
       "Organized Norway's largest student sustainability conference",
       "Coordinated sustainable suppliers, budget management, and stakeholders",
@@ -66,7 +66,7 @@ const experiences = [
     type: "student",
     emoji: "🎓",
     color: "#FFBE0B",
-    shortBio: "VP of the BBA student board. Yes, he had a title. Yes, it was legit.",
+    shortBio: "VP of the BBA student board. Yes, I had the title. Yes, it was absolutely earned.",
     bullets: [
       "Planned and executed student-focused events for the BBA Board",
       "Collaborated across departments to ensure smooth operations",
@@ -84,7 +84,7 @@ const experiences = [
     type: "student",
     emoji: "👥",
     color: "#3A86FF",
-    shortBio: "Wrangled 700 student buddies. Basically a small army.",
+    shortBio: "I managed 700+ student buddy groups across Norway's largest intake year. A small army, fully coordinated.",
     bullets: [
       "Recruited, managed, and supported 700+ student buddies",
       "Led a team of ambassadors to ensure smooth event execution",
@@ -102,13 +102,13 @@ const experiences = [
     type: "student",
     emoji: "❄️",
     color: "#FB5607",
-    shortBio: "Handled 2.5 million NOK budget. As a first-year student. No pressure.",
+    shortBio: "I oversaw a 2.5M NOK budget in my very first year of university. No pressure whatsoever.",
     bullets: [
       "Oversaw budget of 2.5 million NOK for Winter Games 2022",
       "Managed financial reporting, accounting, and invoices",
       "Ensured accurate financial records and budgetary compliance",
     ],
-    funNote: "2,500,000 NOK. At 19 years old. The guts on this guy.",
+    funNote: "2,500,000 NOK — entrusted to me in my very first year of university. I&apos;ll let that figure speak for itself.",
     badge: "2.5M NOK",
   },
 ];
