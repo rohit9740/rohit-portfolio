@@ -5,12 +5,12 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 
 const funFacts = [
-  { emoji: "🍔", text: "Worked at McDonald's before handling a 2.5M NOK budget. The burger customers were harder, honestly." },
-  { emoji: "🇳🇴", text: "I speak Norwegian. Moved from India, had no choice but to learn it properly. Still surprises people at interviews." },
-  { emoji: "👥", text: "Coordinated 700 students during BI's biggest ever intake. Built the systems from scratch. Excel sheets, WhatsApp groups, late nights." },
-  { emoji: "🌱", text: "I read sustainability reports voluntarily. My friends have strong opinions about this." },
-  { emoji: "📊", text: "Built a dashboard at Orkla. My supervisor said 'impressed.' I spent the rest of the day trying to look like I had expected that." },
-  { emoji: "🌍", text: "Worked at the Norwegian Refugee Council on education for kids in conflict zones. Puts a lot of things in perspective." },
+  { emoji: "✈️", text: "Moved to Norway alone at 15. New country, new language, new everything. Took a while, but I figured it out." },
+  { emoji: "🏠", text: "Volunteered at elderly care homes for a couple of years. Cooked, talked, sat with people. Still think about it." },
+  { emoji: "♟️", text: "I am pretty good at chess. I say 'pretty good' to be polite about it." },
+  { emoji: "🎾", text: "Recently developed what I can only describe as a tennis problem. It came out of nowhere and shows no signs of stopping." },
+  { emoji: "🏏", text: "I can name any cricket player from the last 10 years. Full name, team, probably their batting average. Test me." },
+  { emoji: "🍔", text: "Worked at Bastard Burgers while studying full time and running student organisations. Multitasking was not optional." },
 ];
 
 const highlights = [

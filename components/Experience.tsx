@@ -111,6 +111,57 @@ const experiences = [
     funNote: "2.5 million NOK. First year of uni. Every invoice checked, every deadline hit. I did not sleep much that winter.",
     badge: "2.5M NOK",
   },
+  {
+    id: "oslo-business-forum",
+    period: "Aug 2023 – Sep 2023",
+    role: "Customer Experience Ambassador",
+    org: "Oslo Business Forum",
+    type: "work",
+    emoji: "🎤",
+    color: "#3A86FF",
+    shortBio: "Helped run one of Oslo's biggest business events. The theme was 'Thriving in Chaos.' Felt personally relevant.",
+    bullets: [
+      "Helped build up the event and delivered customer experience to attendees",
+      "Handled attendee inquiries and ensured needs were met throughout the forum",
+      "Contributed to smooth operations at one of Norway's leading business conferences",
+    ],
+    funNote: "The theme was 'Thriving in Chaos.' At that point in my schedule, I was basically the target audience.",
+    badge: "OBF 2023",
+  },
+  {
+    id: "radhe-krishna",
+    period: "Oct 2017 – Jul 2018",
+    role: "Store Management Intern",
+    org: "Radhe Krishna Traders",
+    type: "work",
+    emoji: "🏪",
+    color: "#8338EC",
+    shortBio: "First real exposure to how a business actually runs. Inventory, sales, customers, all of it.",
+    bullets: [
+      "Assisted with inventory management, sales, and customer service",
+      "Developed communication, ownership, and time management skills",
+      "Built early exposure to business operations and retail management",
+    ],
+    funNote: "This was before Norway, before university, before all of it. You have to start somewhere.",
+    badge: "First Role",
+  },
+  {
+    id: "bastard-burgers",
+    period: "May 2022 – Feb 2026",
+    role: "Shift Leader",
+    org: "Bastard Burgers",
+    type: "work",
+    emoji: "🍔",
+    color: "#FFBE0B",
+    shortBio: "Ran shifts at Bastard Burgers through all of university. Kitchen, team, operations, the full thing.",
+    bullets: [
+      "Managed shift operations including cash handling, order processing, and food preparation",
+      "Delivered consistent customer service in a high-volume, fast-paced environment",
+      "Led the team on shift and kept things running smoothly under pressure",
+    ],
+    funNote: "Did this all the way through my degree. Some evenings I was both a shift leader here and a VP of a student board. The burgers and the budget both got sorted.",
+    badge: "4 Years",
+  },
 ];
 
 const education = [
@@ -149,6 +200,15 @@ const education = [
     emoji: "🎒",
     color: "#FF006E",
     note: "Visual Arts, Economics, Norwegian. Extended Essay in Visual Arts. Full CAS completed.",
+  },
+  {
+    id: "gcms",
+    period: "2021",
+    role: "GCMS Forex Trading Diploma",
+    org: "Global Capital Market Solutions",
+    emoji: "📈",
+    color: "#FB5607",
+    note: "Completed a Forex Trading Diploma. Learned how markets work. Did not become a trader.",
   },
 ];
 
