@@ -184,13 +184,13 @@ export default function Skills() {
           ))}
         </motion.div>
 
-        {/* Right side — Languages + Tech Cloud */}
+        {/* Right side — Languages */}
         <div className="space-y-8">
-          {/* Languages — compact */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ delay: 0.4 }}
+            className="max-w-xs"
           >
             <h3 className="text-sm font-bold mb-3 text-white/60 font-mono uppercase tracking-widest">🗣️ Languages</h3>
             <div className="space-y-2">
@@ -219,29 +219,6 @@ export default function Skills() {
                     </div>
                   </div>
                 </motion.div>
-              ))}
-            </div>
-          </motion.div>
-
-          {/* Tech cloud */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ delay: 0.6 }}
-          >
-            <h3 className="text-sm font-bold mb-3 text-white/60 font-mono uppercase tracking-widest">⚡ Tools & Expertise</h3>
-            <div className="flex flex-wrap gap-2">
-              {techStack.map((tech, i) => (
-                <motion.span
-                  key={tech}
-                  initial={{ opacity: 0, scale: 0 }}
-                  animate={inView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ delay: 0.7 + i * 0.04, type: "spring" }}
-                  whileHover={{ scale: 1.1, y: -2 }}
-                  className="px-3 py-1.5 rounded-lg text-xs font-mono border border-neon-green/20 bg-neon-green/5 text-neon-green/70 hover:text-neon-green hover:border-neon-green/50 hover:bg-neon-green/10 transition-all cursor-default"
-                >
-                  {tech}
-                </motion.span>
               ))}
             </div>
           </motion.div>

@@ -333,7 +333,7 @@ export default function Experience() {
         transition={{ delay: 0.2 }}
         className="text-white/50 text-lg mb-10 max-w-xl"
       >
-        Click any card to expand the full story. Fair warning: it&apos;s impressive.
+        Click any card to expand the full story.
       </motion.p>
 
       {/* Tab switcher */}

@@ -10,7 +10,7 @@ const funFacts = [
   { emoji: "♟️", text: "I am pretty good at chess. I say 'pretty good' to be polite about it." },
   { emoji: "🎾", text: "Recently developed what I can only describe as a tennis problem. It came out of nowhere and shows no signs of stopping." },
   { emoji: "🏏", text: "I can name any cricket player from the last 10 years. Full name, team, probably their batting average. Test me." },
-  { emoji: "🍔", text: "Worked at Bastard Burgers while studying full time and running student organisations. Multitasking was not optional." },
+  { emoji: "🍔", text: "Did an internship at Orkla, worked part time at Bastard Burgers, and had a full time Master's degree running alongside both. At the same time. That was a choice I made." },
 ];
 
 const highlights = [
