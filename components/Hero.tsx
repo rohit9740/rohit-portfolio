@@ -7,12 +7,12 @@ import { useEffect, useState, useRef } from "react";
 const roles = [
   "MSc Sustainable Finance Student 🎓",
   "Data Analyst 📊",
-  "Open to Most Things, Honestly 🙋",
   "Sustainability Enthusiast 🌱",
   "Excel Person (send help) 📈",
-  "Business Graduate 📋",
+  "Event Coordinator 🎤",
   "Community Builder 👥",
   "Power BI & Dashboards 📊",
+  "Finance & Operations 💼",
 ];
 
 function TypewriterText() {

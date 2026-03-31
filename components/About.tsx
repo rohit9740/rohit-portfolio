@@ -138,9 +138,8 @@ export default function About() {
               path, but genuinely enjoying the process.
             </p>
             <p className="text-lg text-white/70 leading-relaxed">
-              I have worked across data analytics, event coordination, finance, and sustainability. I am a recent
-              graduate open to a range of roles, not just the ones with &quot;data&quot; in the title. I tend to
-              take on more than makes sense, learn fast, and care quite a lot about doing things properly.
+              I have worked across data analytics, event coordination, finance, and sustainability. I tend to take
+              on more than makes sense, learn fast, and care quite a lot about doing things properly.
             </p>
           </motion.div>
 
