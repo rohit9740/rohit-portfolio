@@ -169,14 +169,6 @@ export default function Contact() {
                 </motion.div>
               ))}
             </div>
-            <motion.a
-              href="mailto:dardarohit9740@gmail.com"
-              whileHover={{ scale: 1.02, boxShadow: "0 0 30px rgba(0,255,135,0.3)" }}
-              whileTap={{ scale: 0.98 }}
-              className="block w-full text-center py-4 bg-neon-green text-dark font-bold rounded-2xl text-base hover:bg-neon-green/90 transition-all"
-            >
-              Send me an email ✉️
-            </motion.a>
           </motion.div>
 
           {/* Quick facts */}
