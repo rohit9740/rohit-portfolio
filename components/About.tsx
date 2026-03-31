@@ -132,15 +132,15 @@ export default function About() {
             transition={{ delay: 0.3 }}
           >
             <p className="text-lg text-white/70 leading-relaxed mb-4">
-              I&apos;m <strong className="text-white">Rohit Vijay Darda</strong> — a data analyst and{" "}
+              I&apos;m <strong className="text-white">Rohit Vijay Darda</strong>, a data analyst and{" "}
               <strong className="text-neon-green">MSc Sustainable Finance</strong> candidate at BI Norwegian
               Business School in Oslo, with a background in international business.
             </p>
             <p className="text-lg text-white/70 leading-relaxed">
-              I transform complex data into clear, actionable insights — dashboards that actually get used, reports
-              that drive real decisions, and frameworks that stick. Outside of analytics, I&apos;ve led Norway&apos;s
-              largest student sustainability conference, coordinated 700+ students at once, and managed a 2.5M NOK
-              budget. Not bad for a day&apos;s work.
+              I work with data to build insights that are actually useful, dashboards people come back to and reports
+              that help teams make better decisions. Outside of that, I have been lucky enough to lead Norway&apos;s
+              largest student sustainability conference, coordinate 700+ students at once, and manage a 2.5M NOK
+              budget. There has been a lot to learn along the way, and I am still very much learning.
             </p>
           </motion.div>
 

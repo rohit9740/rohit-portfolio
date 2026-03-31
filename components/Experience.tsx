@@ -55,7 +55,7 @@ const experiences = [
       "Executed eco-friendly event planning aligned with Impact's vision",
       "Strengthened leadership and communication skills while driving sustainability awareness",
     ],
-    funNote: "NORWAY'S LARGEST. Said it once, will say it again.",
+    funNote: "Still genuinely proud of this one. A lot of moving parts, a lot of people involved, and it all came together.",
     badge: "Leadership",
   },
   {
