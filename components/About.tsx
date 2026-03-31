@@ -5,19 +5,19 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 
 const funFacts = [
-  { emoji: "🍔", text: "I've flipped burgers AND managed a 2.5M NOK budget. Multitasker of the century." },
-  { emoji: "🇳🇴", text: "I speak Norwegian fluently — despite being from India. Basically an honorary Viking at this point." },
-  { emoji: "👥", text: "I once coordinated 700 university students across buddy groups. It went remarkably well, considering." },
-  { emoji: "🌳", text: "So passionate about sustainability, I've been told I probably hug trees on weekends. Unconfirmed." },
-  { emoji: "📈", text: "I built a Power BI dashboard so clean, my supervisor at Orkla described it as 'impressive.' His words." },
-  { emoji: "🕊️", text: "I supported education programmes for refugee children in active conflict zones. Some things matter more than metrics." },
+  { emoji: "🍔", text: "I have flipped burgers and managed a 2.5M NOK budget. Different kinds of pressure, same level of focus." },
+  { emoji: "🇳🇴", text: "I speak Norwegian fluently. Moved here from India and picked it up properly. People are sometimes surprised. I find that motivating." },
+  { emoji: "👥", text: "I coordinated 700 university students across buddy groups during a record intake year. That year taught me more about logistics than any course." },
+  { emoji: "🌱", text: "Genuinely passionate about sustainability, to the point where colleagues have started questioning my weekend plans. No comment." },
+  { emoji: "📊", text: "I built a Power BI dashboard at Orkla that my supervisor described as impressive. That feedback meant something to me." },
+  { emoji: "🌍", text: "I worked with the Norwegian Refugee Council on education programmes for children in conflict zones. Meaningful work in every sense." },
 ];
 
 const highlights = [
   { icon: "🎓", label: "Education", value: "MSc Sustainable Finance @ BI", sub: "Previously: BBA Intl Business (GPA: B)" },
   { icon: "📍", label: "Location", value: "Oslo, Norway", sub: "Originally from India 🇮🇳" },
-  { icon: "🗣️", label: "Languages", value: "Norwegian · English · Hindi", sub: "Fluent in data too 📊" },
-  { icon: "🎯", label: "Focus", value: "Data · ESG · Sustainability", sub: "Making numbers green 🌱" },
+  { icon: "🗣️", label: "Languages", value: "Norwegian · English · Hindi", sub: "Data is effectively the fourth" },
+  { icon: "🎯", label: "Focus", value: "Data · ESG · Sustainability", sub: "Where finance meets the real world" },
 ];
 
 export default function About() {
