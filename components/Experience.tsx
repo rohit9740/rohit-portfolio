@@ -16,7 +16,7 @@ const experiences = [
     bullets: [
       "Built a KPI & project portfolio dashboard in Power BI for the product development department",
       "Conducted ESG data analysis (PPWR, Scope 3 emissions) for sustainability reporting",
-      "Improved workflow and structure of product decision-making meetings",
+      "Improved workflow and structure of product decision making meetings",
       "Gained practical exposure to project management, ESG integration, and corporate sustainability",
     ],
     funNote: "He said 'impressed.' I had to read it twice.",
@@ -34,7 +34,7 @@ const experiences = [
     bullets: [
       "Supported the Global M&E Specialist in updating the Better Learning Program (BLP) toolbox",
       "Cleaned and analyzed data from multiple country offices to strengthen reporting quality",
-      "Contributed to a program restoring psychosocial well-being for children in conflict areas",
+      "Contributed to a program restoring psychosocial wellbeing for children in conflict areas",
       "Built skills in monitoring frameworks and international development practices",
     ],
     funNote: "You do not leave that internship thinking about your personal KPIs. It changes how you think about what work is actually for.",
@@ -48,11 +48,11 @@ const experiences = [
     type: "student",
     emoji: "♻️",
     color: "#8338EC",
-    shortBio: "Organized Norway's largest student sustainability conference. Nine months of planning, one day of execution, zero disasters.",
+    shortBio: "Organized Norway's largest student sustainability conference. Nine months of planning. It went well.",
     bullets: [
       "Organized Norway's largest student sustainability conference",
       "Coordinated sustainable suppliers, budget management, and stakeholders",
-      "Executed eco-friendly event planning aligned with Impact's vision",
+      "Executed eco friendly event planning aligned with Impact's vision",
       "Strengthened leadership and communication skills while driving sustainability awareness",
     ],
     funNote: "I still have the event timeline saved somewhere. Twenty-three revisions. Worth it.",
@@ -68,7 +68,7 @@ const experiences = [
     color: "#FFBE0B",
     shortBio: "VP of the BBA student board. Planned events, kept the calendar alive, occasionally convinced people to show up.",
     bullets: [
-      "Planned and executed student-focused events for the BBA Board",
+      "Planned and executed student focused events for the BBA Board",
       "Collaborated across departments to ensure smooth operations",
       "Managed multiple events simultaneously",
       "Improved organizational and time management skills under pressure",
@@ -88,7 +88,7 @@ const experiences = [
     bullets: [
       "Recruited, managed, and supported 700+ student buddies",
       "Led a team of ambassadors to ensure smooth event execution",
-      "Updated and created new administrative systems due to record-breaking intake (4000 students!)",
+      "Updated and created new administrative systems due to record breaking intake (4000 students!)",
       "Coordinated with BI Program Coordinators and BI Counselling team",
     ],
     funNote: "My PM said it was a privilege working with me. I still have that email.",
@@ -156,7 +156,7 @@ const experiences = [
     shortBio: "Ran shifts at Bastard Burgers through all of university. Kitchen, team, operations, the full thing.",
     bullets: [
       "Managed shift operations including cash handling, order processing, and food preparation",
-      "Delivered consistent customer service in a high-volume, fast-paced environment",
+      "Delivered consistent customer service in a high-volume, fast paced environment",
       "Led the team on shift and kept things running smoothly under pressure",
     ],
     funNote: "Did this all the way through my degree. Some evenings I was both a shift leader here and a VP of a student board. The burgers and the budget both got sorted.",

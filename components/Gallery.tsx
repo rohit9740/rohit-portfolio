@@ -22,7 +22,7 @@ const photos = [
   {
     src: "/orkla-4.jpg",
     caption: "Whiteboard brainstorm",
-    sub: "Explaining a KPI dashboard. The noodle cup is load-bearing.",
+    sub: "Explaining a KPI dashboard. The noodle cup is load bearing.",
     tag: "Data Analysis",
     color: "#FFBE0B",
   },

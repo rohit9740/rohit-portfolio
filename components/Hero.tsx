@@ -5,14 +5,14 @@ import { useEffect, useState, useRef } from "react";
 
 
 const roles = [
+  "MSc Sustainable Finance Student 🎓",
   "Data Analyst 📊",
-  "Sustainability Advocate 🌱",
-  "Power BI Specialist 📊",
-  "Budget Controller (2.5M NOK) 💰",
-  "Student Community Leader 👥",
-  "Excel Enthusiast (seriously, send help) 📈",
-  "MSc Sustainable Finance Candidate 🎓",
-  "Strategic Problem Solver 💡",
+  "Open to Most Things, Honestly 🙋",
+  "Sustainability Enthusiast 🌱",
+  "Excel Person (send help) 📈",
+  "Business Graduate 📋",
+  "Community Builder 👥",
+  "Power BI & Dashboards 📊",
 ];
 
 function TypewriterText() {

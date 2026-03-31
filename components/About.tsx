@@ -105,7 +105,7 @@ export default function About() {
               >
                 <p className="text-xs text-white/40 font-mono mb-1">PROFESSIONAL MODE</p>
                 <p className="text-sm text-white/80 leading-relaxed">
-                  "Strategic data analyst with a passion for sustainable finance and cross-functional collaboration."
+                  "MSc student in Sustainable Finance, background in data and business operations, open to where that leads."
                 </p>
                 <p className="text-xs text-neon-green mt-2">Click to reveal true self →</p>
               </div>
@@ -132,15 +132,15 @@ export default function About() {
             transition={{ delay: 0.3 }}
           >
             <p className="text-lg text-white/70 leading-relaxed mb-4">
-              I&apos;m <strong className="text-white">Rohit Vijay Darda</strong>, a data analyst and{" "}
-              <strong className="text-neon-green">MSc Sustainable Finance</strong> candidate at BI Norwegian
-              Business School in Oslo, with a background in international business.
+              I&apos;m <strong className="text-white">Rohit Vijay Darda</strong>, an{" "}
+              <strong className="text-neon-green">MSc Sustainable Finance</strong> student at BI Norwegian
+              Business School in Oslo. Background in business, data, and operations. Still figuring out the exact
+              path, but genuinely enjoying the process.
             </p>
             <p className="text-lg text-white/70 leading-relaxed">
-              I work with data to build things people actually use. Dashboards, reports, the odd framework. If it ends
-              up being referenced in a meeting, that is the goal. Outside of that, I have spent a fair bit of time
-              organising things at scale. Norway&apos;s largest student sustainability conference, 700 students across
-              buddy groups, a 2.5M NOK budget. It has not all been smooth, but that is kind of the point.
+              I have worked across data analytics, event coordination, finance, and sustainability. I am a recent
+              graduate open to a range of roles, not just the ones with &quot;data&quot; in the title. I tend to
+              take on more than makes sense, learn fast, and care quite a lot about doing things properly.
             </p>
           </motion.div>
 

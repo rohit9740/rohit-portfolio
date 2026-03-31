@@ -9,10 +9,10 @@ const skillCategories = [
     emoji: "📊",
     color: "#00FF87",
     skills: [
-      { name: "Power BI", level: 88, funLabel: "Dashboard Deity" },
-      { name: "Microsoft Excel", level: 92, funLabel: "Pivot Table Picasso" },
+      { name: "Power BI", level: 88, funLabel: "Spend A Lot Of Time Here" },
+      { name: "Microsoft Excel", level: 92, funLabel: "My Most Used App, Probably" },
       { name: "Data Cleaning & Structuring", level: 85, funLabel: "Mess Whisperer" },
-      { name: "Stata", level: 70, funLabel: "Statistical Sorcerer" },
+      { name: "Stata", level: 70, funLabel: "Getting There" },
     ],
   },
   {
@@ -21,8 +21,8 @@ const skillCategories = [
     color: "#8338EC",
     skills: [
       { name: "Python", level: 72, funLabel: "Snake Charmer 🐍" },
-      { name: "R Programming", level: 75, funLabel: "R-rated Analyst" },
-      { name: "Excel VBA / Automation", level: 78, funLabel: "Macro Maestro" },
+      { name: "R Programming", level: 75, funLabel: "R Rated Analyst" },
+      { name: "Excel VBA / Automation", level: 78, funLabel: "Learned This Out Of Necessity" },
     ],
   },
   {
@@ -30,7 +30,7 @@ const skillCategories = [
     emoji: "🌱",
     color: "#3A86FF",
     skills: [
-      { name: "ESG Data Analysis", level: 82, funLabel: "Planet Protector" },
+      { name: "ESG Data Analysis", level: 82, funLabel: "Actually Cares About This" },
       { name: "Sustainability Reporting", level: 80, funLabel: "Green Report Generator" },
       { name: "Scope 3 Emissions Analysis", level: 75, funLabel: "Carbon Counter" },
       { name: "PPWR Compliance", level: 70, funLabel: "Regulation Wrangler" },
@@ -41,10 +41,10 @@ const skillCategories = [
     emoji: "🤝",
     color: "#FFBE0B",
     skills: [
-      { name: "Leadership", level: 90, funLabel: "Crowd Whisperer (700 people)" },
+      { name: "Leadership", level: 90, funLabel: "Somehow Managed 700 People" },
       { name: "Event Management", level: 92, funLabel: "Chaos Organiser" },
-      { name: "Budget Management", level: 85, funLabel: "Money Herder (2.5M NOK)" },
-      { name: "Communication", level: 88, funLabel: "3-Language Talker" },
+      { name: "Budget Management", level: 85, funLabel: "Responsible For 2.5M NOK Once" },
+      { name: "Communication", level: 88, funLabel: "Three Languages, One Person" },
     ],
   },
 ];

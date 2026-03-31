@@ -39,7 +39,7 @@ const contactLinks = [
 ];
 
 const availability = [
-  { text: "Full-time roles", icon: "💼" },
+  { text: "Full time roles", icon: "💼" },
   { text: "Internships", icon: "🎓" },
   { text: "Data & ESG projects", icon: "📊" },
   { text: "Sustainability consulting", icon: "🌱" },
