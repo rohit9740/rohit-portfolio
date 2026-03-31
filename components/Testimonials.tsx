@@ -6,27 +6,14 @@ import { useRef, useState } from "react";
 const testimonials = [
   {
     id: 1,
-    name: "Kilian Mueller",
+    name: "Kilian Muller",
     role: "Packaging Developer",
     org: "Orkla Foods Norge AS",
     emoji: "🍕",
     color: "#FF006E",
     quote:
-      "Through the entire employment period, Rohit carried out his tasks with high quality. He has shown a great degree of professionalism, reliability and collaborative ability. He has an impressive ability to quickly immerse himself in complex issues, and he took on new challenges without hesitation.",
-    funQuote: "Coming from someone at Orkla who doesn't hand out praise lightly, this genuinely meant a lot to me.",
-    period: "Aug – Oct 2025",
-    verified: true,
-  },
-  {
-    id: 2,
-    name: "Kilian Mueller",
-    role: "Packaging Developer",
-    org: "Orkla Foods Norge AS",
-    emoji: "🌟",
-    color: "#FFBE0B",
-    quote:
-      "He is very eager to learn and acquires new knowledge and skills with great efficiency, which has been of great benefit to the team and the project. In addition, Rohit has excelled as a social, pleasant, and honest colleague who contributes to a good working environment.",
-    funQuote: "Still one of the nicest things anyone has said about me professionally. I read it more than I should probably admit.",
+      "Through the entire employment period, Rohit carried out his tasks with high quality. He has shown a great degree of professionalism, reliability and collaborative ability. He has an impressive ability to quickly immerse himself in complex issues, and he took on new challenges without hesitation. He is very eager to learn and acquires new knowledge and skills with great efficiency, which has been of great benefit to the team and the project. In addition, Rohit has excelled as a social, pleasant, and honest colleague who contributes to a good working environment.",
+    funQuote: "Coming from someone at Orkla who doesn't hand out praise lightly, this genuinely meant a lot to me. Still one of the nicest things anyone has said about me professionally.",
     period: "Aug – Oct 2025",
     verified: true,
   },

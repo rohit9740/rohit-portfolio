@@ -96,7 +96,7 @@ export default function About() {
             <motion.div
               animate={{ rotateY: flipped ? 180 : 0 }}
               transition={{ duration: 0.6 }}
-              style={{ transformStyle: "preserve-3d", position: "relative", height: "120px" }}
+              style={{ transformStyle: "preserve-3d", position: "relative", height: "160px" }}
             >
               {/* Front */}
               <div
