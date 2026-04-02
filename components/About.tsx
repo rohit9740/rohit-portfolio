@@ -116,7 +116,7 @@ export default function About() {
               >
                 <p className="text-xs text-neon-green font-mono mb-1">REAL TALK MODE 😂</p>
                 <p className="text-sm text-white/80 leading-relaxed">
-                  "I make dashboards, I care about the planet more than most people think is normal, and I have cooked burgers in between actual meetings. Not metaphorically."
+                  "I build dashboards, I take sustainability seriously, and I have cooked burgers between actual meetings. That last part is not figurative."
                 </p>
               </div>
             </motion.div>

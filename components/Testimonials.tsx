@@ -13,7 +13,7 @@ const testimonials = [
     color: "#FF006E",
     quote:
       "Through the entire employment period, Rohit carried out his tasks with high quality. He has shown a great degree of professionalism, reliability and collaborative ability. He has an impressive ability to quickly immerse himself in complex issues, and he took on new challenges without hesitation. He is very eager to learn and acquires new knowledge and skills with great efficiency, which has been of great benefit to the team and the project. In addition, Rohit has excelled as a social, pleasant, and honest colleague who contributes to a good working environment.",
-    funQuote: "Coming from someone at Orkla who doesn't hand out praise lightly, this genuinely meant a lot to me. Still one of the nicest things anyone has said about me professionally.",
+    funQuote: "This came from someone who does not give praise carelessly. It was one of the more meaningful pieces of feedback I have received professionally.",
     period: "Aug – Oct 2025",
     verified: true,
   },
@@ -26,7 +26,7 @@ const testimonials = [
     color: "#00FF87",
     quote:
       "Rohit was such a pleasure to work with during his internship with us. He is an excellent communicator, very friendly and has a great personality. The work required analysis skills, critical thinking and reading about topics that were new to him. Rohit managed all of this very well and delivered on time. He was also flexible and adapted to changing priorities with no issues. I would love to work with him again in the future.",
-    funQuote: "She said she would love to work with me again. That one I genuinely did not see coming, and I am really grateful for it.",
+    funQuote: "She mentioned she would welcome the opportunity to work together again. That was not something I expected, and it is something I am genuinely grateful for.",
     period: "Jan – Apr 2024",
     verified: true,
   },
@@ -39,7 +39,7 @@ const testimonials = [
     color: "#8338EC",
     quote:
       "Over the past year, it has been an absolute delight to have Rohit as a part of the BBA Academic Board, where he skillfully assumed the role of Event Coordinator. Rohit demonstrated outstanding organizational skills and a keen eye for detail in planning and executing various social and academic events. He successfully orchestrated a wide range of activities, catering to the diverse interests and needs of our student body, which consists of more than 600 students. I look forward to working with Rohit again in the future and highly recommend him for any role!",
-    funQuote: "600 students, multiple events running at once, and somehow everything came together. I genuinely loved every bit of that year.",
+    funQuote: "Six hundred students, multiple simultaneous events, and a full academic calendar to coordinate around. It was a demanding year, and one I genuinely enjoyed.",
     period: "Sep 2022 – Jun 2023",
     verified: true,
   },
@@ -52,7 +52,7 @@ const testimonials = [
     color: "#3A86FF",
     quote:
       "Rohit works well in fast paced environments and exceeded his share of responsibility. He demonstrates excellent communication whilst approaching every task with a positive and confident mindset. I admire his leadership abilities, interpersonal skills and especially the way he has been resourceful to not only the Buddy Team, but other teams and members of Fadderullan. Rohit shows commitment, good work ethic and the ability to deliver work with great quality, within the deadlines given. He has been consistent and strengthened the Buddy Team with much knowledge and has worked above and beyond to maintain structure within the group. It has been a privilege to work with Rohit and I am eager to see what he does next.",
-    funQuote: "I genuinely did not think helping other teams was anything special at the time. Apparently it made an impression. 'A privilege to work with Rohit' from the person who ran the whole programme — I keep coming back to that one.",
+    funQuote: "Helping other teams felt like the obvious thing to do at the time. That it left an impression was not something I anticipated. 'A privilege to work with Rohit' from the programme manager — that is not something I take lightly.",
     period: "Feb – Aug 2022",
     verified: true,
   },
@@ -124,7 +124,7 @@ export default function Testimonials() {
         transition={{ delay: 0.2 }}
         className="text-white/50 text-lg mb-16 max-w-xl"
       >
-        Real quotes from real people. With our totally serious interpretation below each one.
+        Real quotes from people I have worked with, alongside my own reflection on each one.
       </motion.p>
 
       {/* Testimonial carousel */}

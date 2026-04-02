@@ -12,14 +12,14 @@ const experiences = [
     type: "work",
     emoji: "🍕",
     color: "#FF006E",
-    shortBio: "Built the KPI dashboard for the product team. People actually started using it, which was the whole point.",
+    shortBio: "Developed the KPI dashboard for the product development team. It was adopted across the department, which was the objective.",
     bullets: [
       "Built a KPI & project portfolio dashboard in Power BI for the product development department",
       "Conducted ESG data analysis (PPWR, Scope 3 emissions) for sustainability reporting",
       "Improved workflow and structure of product decision making meetings",
       "Worked across project management, ESG reporting, and corporate sustainability in a real commercial setting",
     ],
-    funNote: "He said 'impressed.' I had to read it twice.",
+    funNote: "My supervisor's exact word was 'impressed.' I will not pretend I did not re-read that a few times.",
     badge: "Latest Role",
   },
   {
@@ -30,14 +30,14 @@ const experiences = [
     type: "work",
     emoji: "🌍",
     color: "#00FF87",
-    shortBio: "Cleaned and analyzed data from multiple country offices at the Norwegian Refugee Council. The work had real weight to it.",
+    shortBio: "Analyzed data from multiple country offices at the Norwegian Refugee Council. The work had genuine significance, and it showed.",
     bullets: [
       "Supported the Global M&E Specialist in updating the Better Learning Program (BLP) toolbox",
       "Cleaned and analyzed data from multiple country offices to strengthen reporting quality",
       "Contributed to a program restoring psychosocial wellbeing for children in conflict areas",
       "Gained hands-on experience with monitoring frameworks and international development reporting",
     ],
-    funNote: "You do not leave that internship thinking about your personal KPIs. It changes how you think about what work is actually for.",
+    funNote: "You do not leave that internship the same way you arrived. It shifts how you think about what work is actually for.",
     badge: "NGO",
   },
   {
@@ -48,14 +48,14 @@ const experiences = [
     type: "student",
     emoji: "♻️",
     color: "#8338EC",
-    shortBio: "Organized Norway's largest student sustainability conference. Nine months of planning. It went well.",
+    shortBio: "Organized Norway's largest student sustainability conference. Nine months of planning across suppliers, budgets, and stakeholders.",
     bullets: [
       "Organized Norway's largest student sustainability conference",
       "Coordinated sustainable suppliers, budget management, and stakeholders",
       "Executed eco friendly event planning aligned with Impact's vision",
       "Worked with external partners, sponsors, and a student team across the full planning period",
     ],
-    funNote: "I still have the event timeline saved somewhere. Twenty-three revisions. Worth it.",
+    funNote: "I still have the final event timeline saved somewhere. Twenty-three revisions to get there. Still worth it.",
     badge: "Leadership",
   },
   {
@@ -66,14 +66,14 @@ const experiences = [
     type: "student",
     emoji: "🎓",
     color: "#FFBE0B",
-    shortBio: "VP of the BBA student board. Planned events, kept the calendar alive, occasionally convinced people to show up.",
+    shortBio: "Served as VP of the BBA student board. Led event planning and kept an active calendar running across the full academic year.",
     bullets: [
       "Planned and executed student focused events for the BBA Board",
       "Collaborated across departments to ensure smooth operations",
       "Managed multiple events simultaneously",
       "Got better at managing multiple moving parts without too many things going wrong",
     ],
-    funNote: "Student events are just project management with a tighter budget and no one replies to emails.",
+    funNote: "Student events are essentially project management with a tighter budget and significantly slower email response rates.",
     badge: "VP",
   },
   {
@@ -84,14 +84,14 @@ const experiences = [
     type: "student",
     emoji: "👥",
     color: "#3A86FF",
-    shortBio: "Managed 700+ student buddies during BI's biggest ever intake. Built the admin systems from scratch. Nothing existed for that volume.",
+    shortBio: "Managed 700+ student buddies during BI's largest intake on record. Built the administrative systems from scratch, as none existed at that scale.",
     bullets: [
       "Recruited, managed, and supported 700+ student buddies",
       "Led a team of ambassadors to ensure smooth event execution",
       "Updated and created new administrative systems due to record breaking intake (4000 students!)",
       "Coordinated with BI Program Coordinators and BI Counselling team",
     ],
-    funNote: "My PM said it was a privilege working with me. I still have that email.",
+    funNote: "The Project Manager wrote that it was a privilege to work with me. I still have that email.",
     badge: "700 People",
   },
   {
@@ -108,7 +108,7 @@ const experiences = [
       "Managed financial reporting, accounting, and invoices",
       "Ensured accurate financial records and budgetary compliance",
     ],
-    funNote: "2.5 million NOK. First year of uni. Every invoice checked, every deadline hit. I did not sleep much that winter.",
+    funNote: "2.5 million NOK, managed in my first year at university. Every invoice checked, every deadline met. Sleep was not a priority that winter.",
     badge: "2.5M NOK",
   },
   {
@@ -119,13 +119,13 @@ const experiences = [
     type: "work",
     emoji: "🎤",
     color: "#3A86FF",
-    shortBio: "Helped run one of Oslo's biggest business events. The theme was 'Thriving in Chaos.' Felt personally relevant.",
+    shortBio: "Contributed to running one of Oslo's largest annual business events, handling attendee experience across the full two-day programme.",
     bullets: [
       "Helped build up the event and delivered customer experience to attendees",
       "Handled attendee inquiries and ensured needs were met throughout the forum",
       "Contributed to smooth operations at one of Norway's leading business conferences",
     ],
-    funNote: "The theme was 'Thriving in Chaos.' At that point in my schedule, I was basically the target audience.",
+    funNote: "The conference theme was 'Thriving in Chaos.' At that point in my schedule, I was the target audience.",
     badge: "OBF 2023",
   },
   {
@@ -136,13 +136,13 @@ const experiences = [
     type: "work",
     emoji: "🏪",
     color: "#8338EC",
-    shortBio: "First real exposure to how a business actually runs. Inventory, sales, customers, all of it.",
+    shortBio: "Early exposure to how a business actually runs — inventory, sales, and customer operations from the ground up.",
     bullets: [
       "Assisted with inventory management, sales, and customer service",
       "Developed communication, ownership, and time management skills",
       "Built early exposure to business operations and retail management",
     ],
-    funNote: "This was before Norway, before university, before all of it. You have to start somewhere.",
+    funNote: "This was before Norway and before university. Most things begin with a first step, and this was mine.",
     badge: "First Role",
   },
   {
@@ -153,13 +153,13 @@ const experiences = [
     type: "work",
     emoji: "🍔",
     color: "#FFBE0B",
-    shortBio: "Ran shifts at Bastard Burgers through all of university. Kitchen, team, operations, the full thing.",
+    shortBio: "Led shifts at Bastard Burgers across the full duration of my degree — kitchen, team management, and daily operations.",
     bullets: [
       "Managed shift operations including cash handling, order processing, and food preparation",
       "Delivered consistent customer service in a high-volume, fast paced environment",
       "Led the team on shift and kept things running smoothly under pressure",
     ],
-    funNote: "Did this all the way through my degree. Some evenings I was both a shift leader here and a VP of a student board. The burgers and the budget both got sorted.",
+    funNote: "Held this role throughout my entire degree. On more than a few evenings I was a shift leader here and a VP of a student board on the same day. Both got handled.",
     badge: "4 Years",
   },
 ];
@@ -172,7 +172,7 @@ const education = [
     org: "BI Norwegian Business School",
     emoji: "🌱",
     color: "#00FF87",
-    note: "Current. Still going. Ask again in 2026.",
+    note: "Currently in progress. Expected completion: 2026.",
   },
   {
     id: "bachelor",
@@ -181,7 +181,7 @@ const education = [
     org: "BI Norwegian Business School",
     emoji: "📚",
     color: "#8338EC",
-    note: "Specialisation: International Business. GPA: B. Favourite course: Marketing Management (A) 😎",
+    note: "Specialisation: International Business. GPA: B. Best result: Marketing Management — Grade A.",
   },
   {
     id: "pwc",
@@ -190,7 +190,7 @@ const education = [
     org: "Common Purpose / PwC",
     emoji: "🏆",
     color: "#FFBE0B",
-    note: "Selected for PwC's elite NextGen Leadership program. Very fancy certificate.",
+    note: "Selected for PwC's NextGen Leadership Academy through Common Purpose. Competitive intake across Norway.",
   },
   {
     id: "ib",
@@ -208,7 +208,7 @@ const education = [
     org: "Global Capital Market Solutions",
     emoji: "📈",
     color: "#FB5607",
-    note: "Completed a Forex Trading Diploma. Learned how markets work. Did not become a trader.",
+    note: "Completed a Forex Trading Diploma. Gained a working understanding of currency markets and trading mechanics. Have not traded since.",
   },
 ];
 
