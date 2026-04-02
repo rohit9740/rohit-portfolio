@@ -51,21 +51,8 @@ const testimonials = [
     emoji: "👥",
     color: "#3A86FF",
     quote:
-      "Rohit works well in fast paced environments and exceeded his share of responsibility. He demonstrates excellent communication whilst approaching every task with a positive and confident mindset. I admire his leadership abilities, interpersonal skills and especially the way he has been resourceful to not only the Buddy Team, but other teams and members of Fadderullan.",
-    funQuote: "I genuinely did not think helping other teams was anything special at the time. Apparently it made an impression.",
-    period: "Feb – Aug 2022",
-    verified: true,
-  },
-  {
-    id: 6,
-    name: "Camilla Lund Preston",
-    role: "Project Manager, Fadderullan 2022",
-    org: "BISO Oslo",
-    emoji: "💙",
-    color: "#FB5607",
-    quote:
-      "Rohit shows commitment, good work ethic and the ability to deliver work with great quality, within the deadlines given. He has been consistent and strengthened the Buddy Team with much knowledge and has worked above and beyond to maintain structure within the group. It has been a privilege to work with Rohit and I am eager to see what he does next.",
-    funQuote: "\"A privilege to work with Rohit\" from the person who managed the whole programme. I keep coming back to this one.",
+      "Rohit works well in fast paced environments and exceeded his share of responsibility. He demonstrates excellent communication whilst approaching every task with a positive and confident mindset. I admire his leadership abilities, interpersonal skills and especially the way he has been resourceful to not only the Buddy Team, but other teams and members of Fadderullan. Rohit shows commitment, good work ethic and the ability to deliver work with great quality, within the deadlines given. He has been consistent and strengthened the Buddy Team with much knowledge and has worked above and beyond to maintain structure within the group. It has been a privilege to work with Rohit and I am eager to see what he does next.",
+    funQuote: "I genuinely did not think helping other teams was anything special at the time. Apparently it made an impression. 'A privilege to work with Rohit' from the person who ran the whole programme — I keep coming back to that one.",
     period: "Feb – Aug 2022",
     verified: true,
   },
